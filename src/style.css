@@ -1,0 +1,64 @@
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(//spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+body{
+    font-family: 'Spoqa Han Sans';
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    -ms-overflow-style: none;
+    height: 100vh;
+    weight: 100vw;
+    background-image: url("https://cdn.pixabay.com/photo/2019/05/05/11/04/coin-4180241_1280.jpg");
+}
+.label1{
+    display:inline-block;
+    width:135px;
+}
+
+.set{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    transform: translate(-50%);
+    text-align: center;
+}
+
+.title-container{
+    display: inline-block;
+    background-color: rgba(255,255,255,80%);
+    text-align: center;
+    border-radius: 25px;
+    margin: 20px;
+    padding : 2px 25px;
+}
+
+.main-container{
+    text-align: left;
+    background-color: rgba(255,255,255,80%);
+    border-radius: 25px;
+    margin: 20px;
+    padding : 25px;
+}
+
+.result{
+    padding : 25px 0px 10px 0px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.by{
+    display: inline-block;
+    background-color: rgba(255,255,255,80%);
+    border-radius: 25px;
+    padding : 4px 12px;
+    position: absolute;
+    right: 4%;
+    bottom: 4%;
+}
+
+.github{
+    display: inline-block;
+    height: 15px;
+    margin: 0 0 0 9px;
+}
